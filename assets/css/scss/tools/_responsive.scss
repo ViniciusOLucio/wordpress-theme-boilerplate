@@ -1,0 +1,48 @@
+$container-xl: 1440px;
+$container-l: 1140px;
+$container-m: 960px;
+$container-sm: 740px;
+$container-s: 540px;
+
+@mixin responsive($device: null, $min-width: null) {
+  @if $device == xl {
+    // For resolutions upper than 1440px
+    @media screen and (min-width: $container-xl) {
+      @content;
+    }
+  } @else if $device == l {
+    // For resolutions less than 1440px
+    @media screen and (max-width: $container-xl) {
+      @content;
+    }
+  } @else if $device == m {
+    // For resolutions less than 960px
+    @media screen and (max-width: $container-m) { // Corrigido para $container-m
+      @content;
+    }
+  } @else if $device == sm {
+    // For resolutions less than 740px
+    @media screen and (max-width: $container-sm) {
+      @content;
+    }
+  } @else if $device == s {
+    // For resolutions less than 540px
+    @media screen and (max-width: $container-s) {
+      @content;
+    }
+  } @else if $device == xs {
+    // For resolutions less than 540px
+    @media screen and (max-width: $container-s) {
+      @content;
+    }
+  } @else if $min-width {
+    @media screen and (min-width: $min-width) and (max-width: $device) {
+      @content;
+    }
+  } @else {
+    @media screen and (max-width: $device) {
+      @content;
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+.idea/
+
+# Logs & databases
+*.log
+*.sql
+*.sqlite
+
+# OS
+.DS_Store
+
+# Vite / cache (se existir)
+public/hot
+
+# Zip
+*.zip
+
+.ideia

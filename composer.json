@@ -1,0 +1,21 @@
+{
+  "name": "ViniciusOLucio/wp-theme-boilerplate",
+  "description": "WordPress theme boilerplate with Vite",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vinecius",
+      "email": "contato@studiomodus.com.br",
+      "site": "https://viniciuslucio.com.br/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ViniciusOLucio\\Theme\\": "inc/"
+    }
+  }
+}
