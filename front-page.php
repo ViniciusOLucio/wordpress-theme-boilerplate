@@ -5,7 +5,6 @@
  * This is the template that displays the home page by default.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- * @package StudioModus
  */
 
   get_header();
@@ -16,7 +15,7 @@
       <div class="hero__container">
         <h1 class="hero__title">WordPress Theme Boilerplate</h1>
         <p class="hero__subtitle">
-          Criado por <a href="https://viniciuslucio.com.br/" target="_blank">Vinicius Lucio</a> • <a href="https://studiomodus.com.br/" target="_blank"> Studio Modus</a>
+          Criado por <a href="https://viniciuslucio.com.br/" target="_blank">Vinicius Lucio</a>
         </p>
         <p class="hero__text">
           Um boilerplate moderno com Vite, SCSS e todas as ferramentas que você precisa para começar seu próximo projeto WordPress.

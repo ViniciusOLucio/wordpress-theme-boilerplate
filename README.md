@@ -16,7 +16,7 @@ Tema WordPress moderno usando Vite para compilação de assets (SCSS e JavaScrip
 No diretório `wp-content/themes/` do seu WordPress, rode:
 
 ```bash
-    git clone https://github.com/studiomodus/wp-theme-boilerplate.git seu-tema
+    git clone https://github.com/ViniciusOLucio/wordpress-theme-boilerplate.git
     cd seu-tema
 ```
 
@@ -171,7 +171,7 @@ Sinta-se livre para abrir issues ou pull requests com melhorias!
 
 ---
 
-**Desenvolvido por [Studio Modus](https://studiomodus.com.br)**  
+**Desenvolvido por:**  
 [Jhonatan David](https://github.com/jotahdavid) • [Vinicius Lucio](https://github.com/ViniciusOLucio/)  • [Ygor Combi](https://github.com/combizera/)
 
 *Feito com ❤️ usando Vite + WordPress*
