@@ -112,24 +112,14 @@ import '../css/main.scss';  // Sempre mantenha esta linha!
 npm run build
 ```
 
-### 2. Faça upload dos seguintes arquivos/pastas:
+### 2. Não faça upload dos seguintes arquivos/pastas:
 
 ```
-✅ dist/                    (assets compilados)
-✅ inc/                     (includes do tema)
-✅ assets/img/              (imagens apenas)
-✅ *.php                    (todos os arquivos PHP)
-✅ style.css                (obrigatório pelo WordPress)
-✅ screenshot.png           (screenshot do tema)
 
 ❌ node_modules/           (NÃO enviar)
 ❌ vendor/                 (NÃO enviar)
-❌ assets/css/scss/        (NÃO enviar - já compilado)
-❌ assets/js/              (NÃO enviar - já compilado)
 ❌ hot                     (NÃO enviar)
-❌ package.json            (opcional)
-❌ composer.json           (opcional)
-❌ vite.config.js          (opcional)
+
 ```
 
 ### 3. No servidor de produção:
