@@ -22,7 +22,7 @@
           Um boilerplate moderno com Vite, SCSS e todas as ferramentas que você precisa para começar seu próximo projeto WordPress.
         </p>
         <div class="hero__actions">
-          <a href="https://github.com/studiomodus/wp-theme-boilerplate" class="hero__btn hero__btn--primary" target="_blank" rel="noopener">
+          <a href="https://github.com/ViniciusOLucio/wordpress-theme-boilerplate" class="hero__btn hero__btn--primary" target="_blank" rel="noopener">
             Ver no GitHub
           </a>
         </div>
